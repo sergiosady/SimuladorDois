@@ -1,0 +1,67 @@
+        body {
+            background-color: rgb(165, 124, 124);
+            font-family: sans-serif;
+        }
+
+        .principal {
+            direction: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: #f0f0f0;
+        }
+
+        .cabecalho {
+            display: flex;
+            background: rgb(52, 45, 45);
+            color: white;
+            padding: 20px;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .conteudo {
+            display: flex;
+            padding: 40px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .blocoDeImagens {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .blocoDeImagens img {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .texto-ajustado {
+            color: #000000;
+        }
+
+        .botoes {
+            background-color: rgb(165, 124, 124);
+            padding: 50px;
+            text-align: center;
+        }
+
+        #meuBotao {
+            padding: 20px;
+            background: rgb(87, 27, 27);
+            color: white;
+        }
+
+        .rodape {
+            display: flex;
+            background: rgb(52, 45, 45);
+            color: white;
+            padding: 10px;
+            justify-content: center;
+        }
