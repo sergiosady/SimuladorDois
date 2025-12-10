@@ -1,4 +1,4 @@
-[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar simulador em produção
+[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar simulador em "produção"
 
 
 # Simulador-Nível-2-Telos
