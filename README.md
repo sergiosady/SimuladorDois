@@ -1,4 +1,4 @@
-[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar simulador em "produção"
+[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar deploy do simulador(html otimizada)
 
 https://github.com/KevinBezerra/Simulador-Nivel-2-Telos/tree/main - link da atividade(html que precisa ser otimizada)
 
