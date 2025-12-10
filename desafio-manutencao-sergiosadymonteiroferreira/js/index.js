@@ -21,6 +21,4 @@ function addEvent() {
     botaoBusca.addEventListener('click', buscarNoSite);
 }
 
-
-
 window.addEventListener('load', addEvent);
