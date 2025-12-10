@@ -15,8 +15,24 @@
             background: rgb(52, 45, 45);
             color: white;
             padding: 20px;
-            align-items: center;
+            text-align: center;
             flex-direction: column;
+        }
+
+        #menu {
+            background-color: rgb(52, 45, 45);
+            border: 0;
+        }
+
+        .logoMenuHeader {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logoMenuHeader img {
+            width: 25px;
+            height: 25px;
+            padding: 5px;
         }
 
         .conteudo {
