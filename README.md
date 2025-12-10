@@ -1,5 +1,7 @@
 [simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar simulador em "produção"
 
+https://github.com/KevinBezerra/Simulador-Nivel-2-Telos/tree/main - link da atividade(html que precisa ser otimizada)
+
 
 # Simulador-Nível-2-Telos
 
