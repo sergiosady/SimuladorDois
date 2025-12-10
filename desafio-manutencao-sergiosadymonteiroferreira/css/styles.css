@@ -63,9 +63,10 @@
         }
 
         .botoes {
+            display: flex;
             background-color: rgb(165, 124, 124);
             padding: 50px;
-            text-align: center;
+            justify-content: center;
         }
 
         #meuBotao {
