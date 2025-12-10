@@ -1,3 +1,6 @@
+simulador-dois.vercel.app  - link para acessar simulador em produção
+
+
 # Simulador-Nível-2-Telos
 
 # Projeto Legado - Empresa XPTO
