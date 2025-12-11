@@ -4,45 +4,44 @@
             margin: 0;
         }
 
-        .principal {
-            direction: flex;
-            justify-content: center;
-            align-content: center;
-            background-color: #f0f0f0;
-            margin: 1px;
-        }
-
         .cabecalho {
             display: flex;
-            background: rgb(52, 45, 45);
+            background-color: rgb(52, 45, 45);
             color: white;
             font-size: 10px;
             text-align: center;
             flex-direction: column;
         }
 
-        #botaoBusca {
-            background-color: rgb(52, 45, 45);
-            border: 0;
-        }
-
-        #botaoMenu {
-            background-color: rgb(52, 45, 45);
-            border: 0;
-        }
-
-        .logoMenuHeader {
+        .cabecalho__botoes {
             display: flex;
             justify-content: space-between;
         }
 
-        .logoMenuHeader img {
+        .cabecalho__botoes img {
             width: 25px;
             height: 25px;
             padding: 5px;
         }
 
-        .conteudo {
+        .cabecalho__botoes button {
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .principal {
+            direction: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: white;
+            margin: 1px;
+        }
+
+        .principal__conteudo {
             display: flex;
             padding: 40px;
             align-items: center;
@@ -50,7 +49,7 @@
             flex-direction: column;
         }
 
-        .blocoDeImagens {
+        .principal__bloco {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -58,33 +57,29 @@
             text-align: center;
         }
 
-        .blocoDeImagens img {
+        .principal__bloco img {
             max-width: 100%;
             width: 100%;
             height: auto;
             display: block;
         }
 
-        .textoAjustado {
-            color: #000000;
-        }
-
-        .botoes {
+        .principal__botoes {
             display: flex;
             background-color: rgb(165, 124, 124);
             padding: 25px;
             justify-content: center;
         }
 
-        #meuBotao {
+        .principal__botao {
             padding: 20px;
-            background: rgb(87, 27, 27);
+            background-color: rgb(87, 27, 27);
             color: white;
         }
 
         .rodape {
             display: flex;
-            background: rgb(52, 45, 45);
+            background-color: rgb(52, 45, 45);
             color: white;
             padding: 10px;
             justify-content: center;

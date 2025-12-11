@@ -11,13 +11,13 @@ function buscarNoSite() {
 }
 
 function addEvent() {
-    const botao = document.getElementById('meuBotao');
+    const botao = document.querySelector('.principal__botao');
     botao.addEventListener('click', avisar);
 
-    const botaoMenu = document.getElementById('botaoMenu');
+    const botaoMenu = document.querySelector('.cabecalho__menu');
     botaoMenu.addEventListener('click', abrirMenu);
 
-    const botaoBusca = document.getElementById('botaoBusca');
+    const botaoBusca = document.querySelector('.cabecalho__busca');
     botaoBusca.addEventListener('click', buscarNoSite);
 }
 
