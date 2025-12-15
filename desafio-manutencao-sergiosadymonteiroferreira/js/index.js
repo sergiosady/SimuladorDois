@@ -7,7 +7,11 @@ function abrirMenu() {
 }
 
 function buscarNoSite() {
-  alert("Você clicou na busca!");
+  alert("Você clicou em busca!");
+}
+
+function paginaPrincipal() {
+  alert("Você já está na página principal.");
 }
 
 function addEvent() {
@@ -19,6 +23,9 @@ function addEvent() {
 
   const botaoBusca = document.querySelector(".painel__busca");
   botaoBusca.addEventListener("click", buscarNoSite);
+
+  const botaoLogo = document.querySelector(".painel__logo");
+  botaoLogo.addEventListener("click", paginaPrincipal);
 }
 
 window.addEventListener("load", addEvent);
