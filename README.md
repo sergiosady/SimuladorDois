@@ -1,6 +1,6 @@
-[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar deploy do simulador(html otimizada)
+[simulador-dois.vercel.app](https://simulador-dois.vercel.app/)  - link para acessar deploy do simulador feito
 
-https://github.com/KevinBezerra/Simulador-Nivel-2-Telos/tree/main - link da atividade(html que precisa ser otimizada)
+https://github.com/KevinBezerra/Simulador-Nivel-2-Telos/tree/main - repositório da atividade com html que precisa ser otimizada
 
 
 # Simulador-Nível-2-Telos
