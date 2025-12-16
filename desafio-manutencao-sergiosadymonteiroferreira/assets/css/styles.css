@@ -21,6 +21,21 @@
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .cabecalho {
+    display: flex;
+    background-color: rgb(52, 45, 45);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cabecalho h3 {
+    padding: 5px;
+  }
+}
+
 @media (orientation: landscape) {
   .cabecalho {
     display: flex;
@@ -34,21 +49,6 @@
   .cabecalho h3 {
     margin: 0px;
     padding: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cabecalho {
-    display: flex;
-    background-color: rgb(52, 45, 45);
-    color: white;
-    font-size: 10px;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .cabecalho h3 {
-    padding: 5px;
   }
 }
 
