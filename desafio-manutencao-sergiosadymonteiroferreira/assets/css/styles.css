@@ -70,6 +70,7 @@
   margin: 0;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .principal {
@@ -111,6 +112,7 @@
   padding: 20px;
   background-color: rgb(87, 27, 27);
   color: white;
+  cursor: pointer;
 }
 
 .rodape {
