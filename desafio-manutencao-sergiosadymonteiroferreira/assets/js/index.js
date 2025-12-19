@@ -10,10 +10,6 @@ function buscarNoSite() {
   alert("Você clicou em busca!");
 }
 
-function paginaPrincipal() {
-  alert("Você já está na página principal.");
-}
-
 function addEvent() {
   const botao = document.querySelector(".principal__botao");
   botao.addEventListener("click", avisar);
@@ -23,9 +19,6 @@ function addEvent() {
 
   const botaoBusca = document.querySelector(".painel__busca");
   botaoBusca.addEventListener("click", buscarNoSite);
-
-  const botaoLogo = document.querySelector(".painel__logo");
-  botaoLogo.addEventListener("click", paginaPrincipal);
 }
 
 window.addEventListener("load", addEvent);

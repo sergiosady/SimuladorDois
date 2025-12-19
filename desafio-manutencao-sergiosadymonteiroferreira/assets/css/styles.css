@@ -16,7 +16,8 @@
   flex-direction: row;
 }
 
-.cabecalho h3 {
+.cabecalho h2 {
+  font-size: 14px;
   margin: 0px;
   padding: 20px;
 }
@@ -31,7 +32,7 @@
     flex-direction: column;
   }
 
-  .cabecalho h3 {
+  .cabecalho h2 {
     padding: 5px;
   }
 }
@@ -46,7 +47,7 @@
     flex-direction: row;
   }
 
-  .cabecalho h3 {
+  .cabecalho h2 {
     margin: 0px;
     padding: 20px;
   }
@@ -63,7 +64,8 @@
   padding: 5px;
 }
 
-.painel button {
+.painel button,
+a {
   background: transparent;
   border: none;
   padding: 0;
